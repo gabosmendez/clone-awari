@@ -3,7 +3,8 @@
     margin:0;
     vertical-align: baseline;
     list-style: none;
-    border:0
+    border:0;
+    box-sizing: border-box;
 }
 body{
     min-height: 100vh;
@@ -11,7 +12,7 @@ body{
 }
 header{
     position: absolute;
-    padding: 30px 100px;
+    padding: 30px 400px;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,9 +23,9 @@ header{
 }
 header .header-container .login{
     color: #1773FA;
-    border: 1px solid #1773FA;
-    border-radius: 20px;
-    padding: 6px 18px;
+    border: .5px solid #1773FA;
+    border-radius: 50px;
+    padding: 12px 26px;
 }
 header .header-container .login:hover{
     box-shadow:
@@ -32,7 +33,7 @@ header .header-container .login:hover{
             0 0 167px -96px #1773FA;
 }
 header .header-container{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,27 +57,26 @@ header .header-container{
  /* SECTION PRESENTATION */
 
 .presentation{
-    position: absolute;
-    padding: 30px 100px;
-    top: 0;
-    left: 0;
+    position: relative;
+    padding: 0 400px;
     margin-top: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     box-shadow: 0 2px 6px rgba(0,0,0,.05);
 }
 
 .presentation .presentation-container{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.presentation .presentation-container .esquerda{
+    width: 450px;
+    margin-top: 100px;
 }
 
 .presentation .presentation-container .esquerda h1 {
-    font-size: 36px;
+    font-size: 54px;
+    margin-bottom: 10px;
 }
 .presentation .presentation-container .esquerda h2{
     font-size: 16px;
@@ -94,29 +94,40 @@ header .header-container{
     text-decoration: none;
     color: white;
     background-color: #1773FA;
-    padding: 6px 20px;
+    padding: 12px 26px;
     border-radius: 3px;
     box-shadow: 1px 1px 1px 1px darkgray;
 }
-.presentation .presentation-container .direita-imagem{
-    margin-left: 30px;
+.presentation .direita-imagem{
+    margin-left: 58px;
 }
 
 .presentation-image{
-    width: 800px;
+    width: 1000px;
 }
 
 .footer-presentation{
-    display: inline;
+    margin-top: 650px;
+    font-size: 24px;
+    left: 0;
+    padding: 100px 200px;
+    width: 100%;
+    position: absolute;
     background-color: #f3faff;
+    text-align: center;
 }
 .footer-presentation h2{
     font-weight: 400;
+}
+.footer-presentation h2 span{
+    font-weight: 400;
+    color: #1773FA;
 }
 
 /* SECTION PRATICE */
 
 .pratice{
+    position: relative;
     padding: 30px 100px;
     top: 0;
     left: 0;
