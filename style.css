@@ -139,19 +139,116 @@ header .header-container{
     padding: 30px 400px;
     top: 0;
     left: 0;
-    margin-top: 200px;
+    margin-top: 180px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,.05);
 }
 
 .pratice .pratice-container{
     width: 100%;
     display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+    padding: 30px 90px;
+}
+
+.pratice .pratice-container .main-left{
+    margin-top: 50px;
+}
+
+.pratice .pratice-container #text-p{
+    width: 70%;
+}
+
+.pratice .pratice-container .right-avatar{
+    margin-left: 5px;
+}
+
+.pratice .pratice-container .check-list{
+    margin-top: 20px;
+}
+
+.pratice .pratice-container .check-list #check{
+    margin-right: 20px;
+}
+
+.pratice .pratice-container .check-list-item{
+    margin-bottom: 5px;
+}
+
+.pratice .pratice-container h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.pratice .pratice-container p{
+    font-size: 16px;
+    color: grey;
+    font-weight: 400;
+}
+
+/* SECTION MENTORIA */
+
+.mentoria{
+    position: relative;
+    padding: 0 400px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.mentoria .mentoria-container{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 30px 90px;
+}
+
+.mentoria .mentoria-container .main-right{
+    margin-top: 33px;
+    margin-left: 120px   ;
+}
+
+.mentoria .mentoria-container #text-p{
+    width: 70%;
+}
+
+.mentoria .mentoria-container .left-avatar{
+    margin-left: 5px;
+}
+
+.mentoria .mentoria-container .check-list{
+    margin-top: 20px;
+}
+
+.mentoria .mentoria-container .check-list #check{
+    margin-right: 20px;
+}
+
+.mentoria .mentoria-container .check-list-item{
+    margin-bottom: 5px;
+}
+
+.mentoria .mentoria-container h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.mentoria .mentoria-container p{
+    font-size: 16px;
+    color: grey;
+    font-weight: 400;
 }
 
 
