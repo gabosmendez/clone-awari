@@ -186,7 +186,7 @@ header .header-container{
     margin-bottom: 5px;
 }
 
-.pratice .pratice-container h2{
+.pratice .pratice-container h1{
     font-weight: 700;
     font-size: 42px;
     margin-bottom: 24px;
@@ -203,6 +203,7 @@ header .header-container{
 .mentoria{
     position: relative;
     padding: 0 400px;
+    margin-top: 20px;
     top: 0;
     left: 0;
     width: 100%;
@@ -248,7 +249,7 @@ header .header-container{
     font-size: 18px;
 }
 
-.mentoria .mentoria-container h2{
+.mentoria .mentoria-container h1{
     font-weight: 700;
     font-size: 42px;
     margin-bottom: 24px;
@@ -260,6 +261,7 @@ header .header-container{
 .support{
     position: relative;
     padding: 30px 400px;
+    margin-top: 20px;
     top: 0;
     left: 0;
     width: 100%;
@@ -278,10 +280,6 @@ header .header-container{
     background-color: #F9FAFC;
 }
 
-.support .support-container .main-left-support  {
-    margin-top: 50px;
-}
-
 .support .support-container #text-support p{
     width: 70%;
     font-size: 18px;
@@ -293,18 +291,27 @@ header .header-container{
 
 .support .support-container .check-list{
     margin-top: 24px;
-    border: 2px solid black;
 }
 
-.support .support-container .check-list #check{
+.support .support-container .support-items{
+    display: block;
     margin-right: 20px;
+    margin-top: 24px;
 }
 
-.support .support-container .check-list-item{
+.support .support-container .support-items span{
     margin-bottom: 5px;
+    padding: 3px 18px;
+    background-color: #fff;
+    border-radius: 100px;
+    font-size: 16px;
+    line-height: 1.71;
+    color: #302c50;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
 }
 
-.support .support-container h2{
+.support .support-container h1{
     font-weight: 700;
     font-size: 42px;
     margin-bottom: 24px;
@@ -316,4 +323,84 @@ header .header-container{
     font-weight: 400;
 }
 
+/* SECTION EXPERIENCE */
 
+.experience{
+    position: relative;
+    padding: 30px 400px;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience .experience-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 30px 90px;
+}
+
+.experience .experience-container #text-support p{
+    width: 70%;
+    font-size: 18px;
+}
+
+.experience .experience-container .right-avatar{
+    margin-left: 5px;
+}
+
+.experience .experience-container h1{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
+/* SECTION ATTENDANCE */
+
+.attendance{
+    position: relative;
+    justify-items: center;
+    padding: 30px 400px;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #302C50;
+}
+
+.attendance .attendance-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 30px 90px;
+    background-color: #302C50;
+}
+
+.attendance .attendance-container #text-attendance p{
+    width: 70%;
+    font-size: 18px;
+    color: #737E9A;
+    font-weight: 400;
+}
+
+.attendance .attendance-container h1{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.attendance .attendance-items{
+    background-color: white;
+    padding: 30px 200px;
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    border-radius: 4px;
+}
