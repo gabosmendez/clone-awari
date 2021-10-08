@@ -33,7 +33,7 @@ header .header-container .login:hover{
             0 0 167px -96px #1773FA;
 }
 header .header-container{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,8 +49,9 @@ header .header-container{
 .header-container ul li a {
     color: black;
     text-decoration: none;
-
-}.header-container ul li a:hover{
+    font-weight: 700;
+}
+.header-container ul li a:hover{
     color: #1773FA;
 }
 
@@ -59,7 +60,7 @@ header .header-container{
 .presentation{
     position: relative;
     padding: 0 400px;
-    margin-top: 100px;
+    margin-top: 88px;
     width: 100%;
     display: flex;
     box-shadow: 0 2px 6px rgba(0,0,0,.05);
@@ -69,28 +70,28 @@ header .header-container{
     width: 100%;
 }
 
-.presentation .presentation-container .esquerda{
+.presentation .presentation-container .presentation-left{
     width: 450px;
     margin-top: 100px;
 }
 
-.presentation .presentation-container .esquerda h1 {
+.presentation .presentation-container .presentation-left h1 {
     font-size: 54px;
     margin-bottom: 10px;
 }
-.presentation .presentation-container .esquerda h2{
-    font-size: 16px;
+.presentation .presentation-container .presentation-left h2{
+    font-size: 18px;
     color: grey;
     font-weight: 400;
     margin-bottom: 30px;
 }
-.presentation .presentation-container .esquerda h3{
-    font-size: 12px;
+.presentation .presentation-container .presentation-left h3{
+    font-size: 14px;
     color: grey;
     font-weight: 400;
     margin-top: 40px;
 }
-.presentation .presentation-container .esquerda a {
+.presentation .presentation-container .presentation-left a {
     text-decoration: none;
     color: white;
     background-color: #1773FA;
@@ -98,7 +99,7 @@ header .header-container{
     border-radius: 3px;
     box-shadow: 1px 1px 1px 1px darkgray;
 }
-.presentation .direita-imagem{
+.presentation .right-image{
     margin-left: 58px;
 }
 
@@ -107,10 +108,10 @@ header .header-container{
 }
 
 .footer-presentation{
-    margin-top: 650px;
+    margin-top: 666px;
     font-size: 24px;
     left: 0;
-    padding: 80px 400px;
+    padding: 60px 400px;
     width: 100%;
     position: absolute;
     background-color: #f3faff;
@@ -119,9 +120,11 @@ header .header-container{
 .footer-presentation h2{
     font-weight: 400;
 }
-.footer-presentation h2 span{
+.footer-presentation h2 a{
     font-weight: 400;
     color: #1773FA;
+    text-decoration: underline;
+    text-decoration-style: dashed;
 }
 
 .presentation .logo{
@@ -139,7 +142,7 @@ header .header-container{
     padding: 30px 400px;
     top: 0;
     left: 0;
-    margin-top: 180px;
+    margin-top: 162px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -157,11 +160,12 @@ header .header-container{
 }
 
 .pratice .pratice-container .main-left{
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
-.pratice .pratice-container #text-p{
+.pratice .pratice-container #text-p-pratice p{
     width: 70%;
+    font-size: 18px;
 }
 
 .pratice .pratice-container .right-avatar{
@@ -169,7 +173,9 @@ header .header-container{
 }
 
 .pratice .pratice-container .check-list{
-    margin-top: 20px;
+    margin-top: 24px;
+    color: grey;
+    font-size: 18px;
 }
 
 .pratice .pratice-container .check-list #check{
@@ -182,8 +188,8 @@ header .header-container{
 
 .pratice .pratice-container h2{
     font-weight: 700;
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 42px;
+    margin-bottom: 24px;
 }
 
 .pratice .pratice-container p{
@@ -215,12 +221,13 @@ header .header-container{
 }
 
 .mentoria .mentoria-container .main-right{
-    margin-top: 33px;
     margin-left: 120px   ;
 }
 
-.mentoria .mentoria-container #text-p{
+.mentoria .mentoria-container #text-p-mentoria p{
     width: 70%;
+    font-size: 18px;
+    color: grey;
 }
 
 .mentoria .mentoria-container .left-avatar{
@@ -228,7 +235,7 @@ header .header-container{
 }
 
 .mentoria .mentoria-container .check-list{
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .mentoria .mentoria-container .check-list #check{
@@ -237,19 +244,76 @@ header .header-container{
 
 .mentoria .mentoria-container .check-list-item{
     margin-bottom: 5px;
+    color: grey;
+    font-size: 18px;
 }
 
 .mentoria .mentoria-container h2{
     font-weight: 700;
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 42px;
+    margin-bottom: 24px;
 }
 
-.mentoria .mentoria-container p{
+
+/* SECTION SUPPORT */
+
+.support{
+    position: relative;
+    padding: 30px 400px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9FAFC;
+}
+
+.support .support-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 30px 90px;
+    background-color: #F9FAFC;
+}
+
+.support .support-container .main-left-support  {
+    margin-top: 50px;
+}
+
+.support .support-container #text-support p{
+    width: 70%;
+    font-size: 18px;
+}
+
+.support .support-container .right-avatar{
+    margin-left: 5px;
+}
+
+.support .support-container .check-list{
+    margin-top: 24px;
+    border: 2px solid black;
+}
+
+.support .support-container .check-list #check{
+    margin-right: 20px;
+}
+
+.support .support-container .check-list-item{
+    margin-bottom: 5px;
+}
+
+.support .support-container h2{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
+.support .support-container p{
     font-size: 16px;
     color: grey;
     font-weight: 400;
 }
-
 
 
