@@ -21,18 +21,18 @@ header{
     align-items: center;
     box-shadow: 0 2px 6px rgba(0,0,0,.05);
 }
-header .header-container .login{
+.header-container .login{
     color: #1773FA;
     border: .5px solid #1773FA;
     border-radius: 50px;
     padding: 12px 26px;
 }
-header .header-container .login:hover{
+.header-container .login:hover{
     box-shadow:
             0 0 2px #1773FA,
             0 0 167px -96px #1773FA;
 }
-header .header-container{
+.header-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -55,6 +55,18 @@ header .header-container{
     color: #1773FA;
 }
 
+#banner-titulo {
+    font-size: 54px;
+    margin-bottom: 20px;
+    line-height: 55px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
  /* SECTION PRESENTATION */
 
 .presentation{
@@ -66,32 +78,26 @@ header .header-container{
     box-shadow: 0 2px 6px rgba(0,0,0,.05);
 }
 
-.presentation .presentation-container{
+.presentation-container{
     width: 100%;
 }
 
-.presentation .presentation-container .presentation-left{
+.presentation-left{
     width: 450px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
-.presentation .presentation-container .presentation-left h1 {
-    font-size: 54px;
-    margin-bottom: 10px;
+.presentation-left p{
+    margin-bottom: 40px;
 }
-.presentation .presentation-container .presentation-left h2{
-    font-size: 18px;
-    color: grey;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-.presentation .presentation-container .presentation-left h3{
+
+h3 {
     font-size: 14px;
     color: grey;
     font-weight: 400;
     margin-top: 40px;
 }
-.presentation .presentation-container .presentation-left a {
+.presentation-left a {
     text-decoration: none;
     color: white;
     background-color: #1773FA;
@@ -99,6 +105,7 @@ header .header-container{
     border-radius: 3px;
     box-shadow: 1px 1px 1px 1px darkgray;
 }
+
 .presentation .right-image{
     margin-left: 58px;
 }
@@ -111,35 +118,50 @@ header .header-container{
     margin-top: 666px;
     font-size: 24px;
     left: 0;
-    padding: 60px 400px;
+    padding: 75px 400px;
     width: 100%;
     position: absolute;
     background-color: #f3faff;
     text-align: center;
 }
-.footer-presentation h2{
+h2{
     font-weight: 400;
 }
-.footer-presentation h2 a{
+
+h2 a{
     font-weight: 400;
     color: #1773FA;
     text-decoration: underline;
     text-decoration-style: dashed;
 }
 
-.presentation .logo{
-    width: 380px;
+.logos{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.logos #nubank{
+    width: 5rem;
+}
+
+.logos #c6bank{
+    width: 6rem;
+}
+
+.logos #uber{
+    width: 3rem;
+}
+
+.logos #qandar{
+    width: 8.5rem;
 }
 
 /* SECTION PRATICE */
 
 .pratice{
     position: relative;
-    padding: 30px 400px;
+    padding: 50px 400px;
     top: 0;
     left: 0;
     margin-top: 162px;
@@ -149,7 +171,7 @@ header .header-container{
     align-items: center;
 }
 
-.pratice .pratice-container{
+.pratice-container{
     width: 100%;
     display: flex;
     background-color: white;
@@ -159,43 +181,34 @@ header .header-container{
     padding: 30px 90px;
 }
 
-.pratice .pratice-container .main-left{
+.main-left{
     margin-top: 35px;
 }
 
-.pratice .pratice-container #text-p-pratice p{
-    width: 70%;
-    font-size: 18px;
-}
-
-.pratice .pratice-container .right-avatar{
+.right-avatar{
     margin-left: 5px;
 }
 
-.pratice .pratice-container .check-list{
+.check-list{
     margin-top: 24px;
     color: grey;
     font-size: 18px;
 }
 
-.pratice .pratice-container .check-list #check{
+#check{
     margin-right: 20px;
 }
 
-.pratice .pratice-container .check-list-item{
+.check-list-item{
     margin-bottom: 5px;
 }
 
-.pratice .pratice-container h1{
-    font-weight: 700;
-    font-size: 42px;
-    margin-bottom: 24px;
-}
-
-.pratice .pratice-container p{
-    font-size: 16px;
+p {
+    width: 70%;
+    font-size: 18px;
     color: grey;
     font-weight: 400;
+    line-height: 28px;
 }
 
 /* SECTION MENTORIA */
@@ -203,7 +216,6 @@ header .header-container{
 .mentoria{
     position: relative;
     padding: 0 400px;
-    margin-top: 20px;
     top: 0;
     left: 0;
     width: 100%;
@@ -212,49 +224,21 @@ header .header-container{
     align-items: center;
 }
 
-.mentoria .mentoria-container{
+.mentoria-container{
     width: 100%;
     display: flex;
     background-color: white;
     justify-content: space-between;
-    margin-top: 5px;
     padding: 30px 90px;
 }
 
-.mentoria .mentoria-container .main-right{
+.main-right{
     margin-left: 120px   ;
 }
 
-.mentoria .mentoria-container #text-p-mentoria p{
-    width: 70%;
-    font-size: 18px;
-    color: grey;
-}
-
-.mentoria .mentoria-container .left-avatar{
+.left-avatar{
     margin-left: 5px;
 }
-
-.mentoria .mentoria-container .check-list{
-    margin-top: 24px;
-}
-
-.mentoria .mentoria-container .check-list #check{
-    margin-right: 20px;
-}
-
-.mentoria .mentoria-container .check-list-item{
-    margin-bottom: 5px;
-    color: grey;
-    font-size: 18px;
-}
-
-.mentoria .mentoria-container h1{
-    font-weight: 700;
-    font-size: 42px;
-    margin-bottom: 24px;
-}
-
 
 /* SECTION SUPPORT */
 
@@ -271,7 +255,7 @@ header .header-container{
     background-color: #F9FAFC;
 }
 
-.support .support-container{
+.support-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -280,26 +264,13 @@ header .header-container{
     background-color: #F9FAFC;
 }
 
-.support .support-container #text-support p{
-    width: 70%;
-    font-size: 18px;
-}
-
-.support .support-container .right-avatar{
-    margin-left: 5px;
-}
-
-.support .support-container .check-list{
-    margin-top: 24px;
-}
-
-.support .support-container .support-items{
+.support-items{
     display: block;
     margin-right: 20px;
     margin-top: 24px;
 }
 
-.support .support-container .support-items span{
+.support-items span{
     margin-bottom: 5px;
     padding: 3px 18px;
     background-color: #fff;
@@ -309,18 +280,6 @@ header .header-container{
     color: #302c50;
     display: inline-block;
     box-shadow: 0 2px 8px rgba(0,0,0,.06);
-}
-
-.support .support-container h1{
-    font-weight: 700;
-    font-size: 42px;
-    margin-bottom: 24px;
-}
-
-.support .support-container p{
-    font-size: 16px;
-    color: grey;
-    font-weight: 400;
 }
 
 /* SECTION EXPERIENCE */
@@ -338,26 +297,11 @@ header .header-container{
 }
 
 .experience .experience-container{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
-    padding: 30px 90px;
-}
-
-.experience .experience-container #text-support p{
-    width: 70%;
-    font-size: 18px;
-}
-
-.experience .experience-container .right-avatar{
-    margin-left: 5px;
-}
-
-.experience .experience-container h1{
-    font-weight: 700;
-    font-size: 42px;
-    margin-bottom: 24px;
+    padding: 10px 0;
 }
 
 /* SECTION ATTENDANCE */
@@ -375,32 +319,44 @@ header .header-container{
 
 .attendance .attendance-container{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     margin-top: 5px;
-    padding: 30px 90px;
+    padding: 10px 0;
     background-color: #302C50;
 }
 
-.attendance .attendance-container #text-attendance p{
-    width: 70%;
+.attendance-container p{
+    width: 80%;
     font-size: 18px;
     color: #737E9A;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
-.attendance .attendance-container h1{
+.attendance-container h1{
     font-weight: 700;
     font-size: 42px;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     color: white;
 }
 
-.attendance .attendance-items{
+.attendance-items{
     background-color: white;
-    padding: 30px 200px;
+    padding: 40px;
     margin-top: 20px;
     width: 100%;
     box-shadow: 0 2px 8px rgba(0,0,0,.06);
     border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 65%;
+}
+
+.items-risks{
+    border: 2px solid pink;
+    width: 350px;
 }
