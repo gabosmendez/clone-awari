@@ -111,12 +111,11 @@ h3 {
 }
 
 .presentation-image{
-    width: 52vw;
-    height: 75vh;
+    width: 52.1vw;
+    height: 72vh;
 }
 
 .footer-presentation{
-    margin-top: 720px;
     font-size: 22px;
     left: 0;
     padding: 50px 400px;
@@ -143,29 +142,29 @@ h2 a{
 }
 
 .logos #nubank{
-    width: 5rem;
+    width: 4rem;
 }
 
 .logos #c6bank{
-    width: 6rem;
+    width: 5rem;
 }
 
 .logos #uber{
-    width: 3rem;
+    width: 2rem;
 }
 
 .logos #qandar{
-    width: 8.5rem;
+    width: 7rem;
 }
 
 /* SECTION PRATICE */
 
 .pratice{
     position: relative;
-    padding: 50px 400px;
+    padding: 60px 400px;
     top: 0;
     left: 0;
-    margin-top: 90px;
+    margin-top: 110px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -477,36 +476,7 @@ footer{
     border-top: 1px solid #f2f6fa;
 }
 
-/* media queries */
-
-@media (max-width: 640px){
-    
+footer p{
+    font-size: 14px;
 }
 
-@media (max-width: 750px){
-
-}
-
-@media (max-width: 828px){
-
-}
-
-@media (max-width: 1080px){
-
-}
-
-@media (max-width: 1200px){
-
-}
-
-@media (max-width: 1920px){
-
-}
-
-@media (max-width: 2048px){
-
-}
-
-@media (max-width: 3840px){
-
-}
