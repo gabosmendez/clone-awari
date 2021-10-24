@@ -112,7 +112,6 @@ h3 {
 
 .presentation-image{
     width: 52.1vw;
-    height: 72vh;
 }
 
 .footer-presentation{
@@ -138,9 +137,12 @@ h2 a{
 .logos{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
 }
 
+.div-logo{
+    padding: 0 10px 0 0;
+}
 .logos #nubank{
     width: 4rem;
 }
@@ -155,6 +157,7 @@ h2 a{
 
 .logos #qandar{
     width: 7rem;
+    margin-left: 10px;
 }
 
 /* SECTION PRATICE */
@@ -438,7 +441,7 @@ h4 {
 }
 
 .items-box{
-    max-width: 355px;
+    /*max-width: 355px;*/
     margin: 5px;
     background: #fff;
     justify-content: space-between;

@@ -8,6 +8,7 @@
     #banner-titulo{
         font-size: 36px;
         line-height: 100%;
+        margin-top: 20px;
     }
     h1{
         font-size: 1.6rem;
@@ -63,6 +64,9 @@
         padding: 30px;
         margin-left: 0;
     }
+    .support{
+        margin-top: 0;
+    }
     .support-container span{
         font-size: 0.8rem;
     }
@@ -82,29 +86,121 @@
     .courses-container h1{
         font-size: 1.6rem;
     }
-
-
-
-
-
+    .items-box{
+        width: 100%;
+    }
     footer  p{
-        font-size: 0.6rem;
+        font-size: 0.7rem !important;
     }
 }
 
 @media (max-width: 750px){
+    p {
+        font-size: 1rem !important;
+        width: 100%;
+    }
+    #banner-titulo{
+        font-size: 36px;
+        line-height: 100%;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    li {
+        font-size: 0.8rem;
+    }
+    #check {
+        width: 0.7rem !important;
+    }
+    header {
+        padding: 20px;
+        position: fixed;
+        background-color: white;
+        z-index: 10;
+    }
+    .presentation{
+        margin-top: 15%;
+    }
+    section, footer{
+        padding: 20px !important;
+    }
+    header .headerList, a.login{
+        display: none;
+    }
+    .main-left{
+        margin-top: 0;
+    }
+    .main-right{
+        margin-left: 0;
+    }
+    .presentation-left{
+        width: 90vw;
+        margin-top: 5px;
+    }
+    .right-image {
+        display: none;
+    }
+    .footer-presentation{
+        padding: 40px !important;
+    }
+    .footer-presentation h2{
+        font-size: 1.3rem;
+    }
+    .pratice{
+        margin-top: 160px;
+    }
 
+    .right-avatar, .left-avatar{
+        display: none;
+    }
+    .pratice-container, .mentoria-container, .support-container{
+        padding: 30px;
+        margin-left: 0;
+    }
+    .support{
+        margin-top: 0;
+    }
+    .support-container span{
+        font-size: 0.8rem;
+    }
+    .attendance-container h1{
+        font-size: 1.6rem;
+    }
+    .attendance-items {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .items-risks{
+        padding: 15px 0;
+    }
+    .course{
+        margin-top: 0;
+    }
+    .courses-container h1{
+        font-size: 1.6rem;
+    }
+    .items-box{
+        width: 100%;
+    }
+    footer  p{
+        font-size: 0.7rem !important;
+    }
 }
 
 @media (max-width: 828px){
-
+    .items-box{
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 1080px){
-
+    .items-box{
+        width: 100% !important;
+    }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1250px){
 
 }
 
@@ -118,4 +214,10 @@
 
 @media (max-width: 3840px){
 
+}
+
+@media (min-width: 1200px) {
+    .items-box{
+        max-width: 305px;
+    }
 }
