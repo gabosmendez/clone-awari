@@ -1,5 +1,21 @@
 /* media queries */
 
+@media (max-width: 540px) {
+    .pratice-container, .support-container{
+        flex-wrap: wrap;
+    }
+    .mentoria-container{
+        flex-wrap: wrap-reverse;
+    }
+    .right-avatar-img, .left-avatar-img{
+        width: 60vw !important;
+        margin-top: 10px;
+    }
+    .pratice{
+        margin-top: 160px;
+    }
+
+}
 @media (max-width: 640px){
     p {
         font-size: 1rem !important;
@@ -53,12 +69,12 @@
     .footer-presentation h2{
         font-size: 1.3rem;
     }
-    .pratice{
-        margin-top: 160px;
+    .right-avatar-img, .left-avatar-img{
+        width: 35vw;
+        padding: 10px;
     }
-
-    .right-avatar, .left-avatar{
-        display: none;
+    .left-avatar-img{
+        margin-right: 40px;
     }
     .pratice-container, .mentoria-container, .support-container{
         padding: 30px;
@@ -79,6 +95,7 @@
     }
     .items-risks{
         padding: 15px 0;
+        width: 100vw;
     }
     .course{
         margin-top: 0;
@@ -93,7 +110,6 @@
         font-size: 0.7rem !important;
     }
 }
-
 @media (max-width: 750px){
     p {
         font-size: 1rem !important;
@@ -147,12 +163,13 @@
     .footer-presentation h2{
         font-size: 1.3rem;
     }
-    .pratice{
-        margin-top: 160px;
-    }
 
-    .right-avatar, .left-avatar{
-        display: none;
+    .right-avatar-img, .left-avatar-img{
+        width: 35vw;
+        padding: 10px;
+    }
+    .left-avatar-img{
+        margin-right: 40px;
     }
     .pratice-container, .mentoria-container, .support-container{
         padding: 30px;
@@ -173,6 +190,7 @@
     }
     .items-risks{
         padding: 15px 0;
+        width: 100vw;
     }
     .course{
         margin-top: 0;
@@ -189,14 +207,194 @@
 }
 
 @media (max-width: 828px){
+    p {
+        font-size: 1rem !important;
+        width: 100%;
+    }
+    #banner-titulo{
+        font-size: 36px;
+        line-height: 100%;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    li {
+        font-size: 0.8rem;
+    }
+    #check {
+        width: 0.7rem !important;
+    }
+    header {
+        padding: 20px;
+        position: fixed;
+        background-color: white;
+        z-index: 10;
+    }
+    .presentation{
+        margin-top: 15%;
+    }
+    section, footer{
+        padding: 20px !important;
+    }
+    header .headerList, a.login{
+        display: none;
+    }
+    .main-left{
+        margin-top: 0;
+    }
+    .main-right{
+        margin-left: 0;
+    }
+    .presentation-left{
+        width: 90vw;
+        margin-top: 5px;
+    }
+    .right-image {
+        display: none;
+    }
+    .footer-presentation{
+        padding: 40px !important;
+    }
+    .footer-presentation h2{
+        font-size: 1.3rem;
+    }
+
+    .right-avatar-img, .left-avatar-img{
+        width: 35vw;
+        padding: 10px;
+    }
+    .left-avatar-img{
+        margin-right: 40px;
+    }
+    .pratice-container, .mentoria-container, .support-container{
+        padding: 30px;
+        margin-left: 0;
+    }
+    .support{
+        margin-top: 0;
+    }
+    .support-container span{
+        font-size: 0.8rem;
+    }
+    .attendance-container h1{
+        font-size: 1.6rem;
+    }
+    .attendance-items {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .items-risks{
+        padding: 15px 0;
+        width: 100vw;
+    }
+    .course{
+        margin-top: 0;
+    }
+    .courses-container h1{
+        font-size: 1.6rem;
+    }
     .items-box{
-        width: 100% !important;
+        width: 100%;
+    }
+    footer  p{
+        font-size: 0.7rem !important;
     }
 }
 
-@media (max-width: 1080px){
+@media (min-width: 829px) and (max-width: 1080px){
+    p {
+        font-size: 1rem !important;
+        width: 100%;
+    }
+    #banner-titulo{
+        font-size: 36px;
+        line-height: 100%;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    li {
+        font-size: 0.8rem;
+    }
+    #check {
+        width: 0.7rem !important;
+    }
+    header {
+        padding: 20px 50px;
+        position: fixed;
+        background-color: white;
+        z-index: 10;
+    }
+    section, footer{
+        padding: 20px !important;
+    }
+
+    .main-left{
+        margin-top: 0;
+    }
+    .main-right{
+        margin-left: 0;
+    }
+    .presentation{
+        padding: 0 50px !important;
+        margin-top: 3.5vh;
+    }
+    .presentation-left{
+        width: 40vw;
+        margin-top: 5px;
+    }
+    .presentation-image{
+        width: 60vw;
+        height: 100%;
+    }
+    .footer-presentation{
+        padding: 40px !important;
+    }
+    .footer-presentation h2{
+        font-size: 1.3rem;
+    }
+
+    .right-avatar-img, .left-avatar-img{
+        width: 35vw;
+        padding: 10px;
+    }
+    .left-avatar-img{
+        margin-right: 40px;
+    }
+    .pratice-container, .mentoria-container, .support-container{
+        padding: 30px;
+        margin-left: 0;
+    }
+    .support{
+        margin-top: 0;
+    }
+    .support-container span{
+        font-size: 0.8rem;
+    }
+    .attendance-container h1{
+        font-size: 1.6rem;
+    }
+    .attendance-items {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .items-risks{
+        padding: 15px 0;
+        width: 100vw;
+    }
+    .course{
+        margin-top: 0;
+    }
+    .courses-container h1{
+        font-size: 1.6rem;
+    }
     .items-box{
-        width: 100% !important;
+        width: 100%;
+    }
+    footer  p{
+        font-size: 0.7rem !important;
     }
 }
 
