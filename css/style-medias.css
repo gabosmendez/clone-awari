@@ -232,7 +232,7 @@
         z-index: 10;
     }
     .presentation{
-        margin-top: 15%;
+        margin-top: 7vh;
     }
     section, footer{
         padding: 20px !important;
@@ -339,7 +339,7 @@
     }
     .presentation{
         padding: 0 50px !important;
-        margin-top: 3.5vh;
+        margin-top: 7vh;
     }
     .presentation-left{
         width: 40vw;
@@ -359,6 +359,7 @@
     .right-avatar-img, .left-avatar-img{
         width: 35vw;
         padding: 10px;
+        max-width: 350px !important;
     }
     .left-avatar-img{
         margin-right: 40px;
@@ -377,12 +378,13 @@
         font-size: 1.6rem;
     }
     .attendance-items {
+        justify-items: center;
         flex-wrap: wrap;
+        max-width: 850px;
         padding: 20px;
     }
     .items-risks{
         padding: 15px 0;
-        width: 100vw;
     }
     .course{
         margin-top: 0;
@@ -391,31 +393,112 @@
         font-size: 1.6rem;
     }
     .items-box{
-        width: 100%;
+        width: 355px;
     }
     footer  p{
         font-size: 0.7rem !important;
     }
 }
 
-@media (max-width: 1250px){
+@media (min-width: 1081px) and (max-width: 1920px){
+    p {
+        font-size: 1rem !important;
+        width: 100%;
+    }
+    #banner-titulo{
+        font-size: 36px;
+        line-height: 100%;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    li {
+        font-size: 0.8rem;
+    }
+    #check {
+        width: 0.7rem !important;
+    }
+    header {
+        padding: 20px 20%;
+        position: fixed;
+        background-color: white;
+        z-index: 10;
+    }
+    section, footer{
+        padding: 20px !important;
+    }
+    .main-left{
+        margin-top: 0;
+    }
+    .main-right{
+        margin-left: 0;
+    }
+    .presentation{
+        padding: 0 20% !important;
+        margin-top: 7vh;
+    }
+    .presentation-container{
+        margin-top: 8vh;
+    }
+    .presentation-left{
+        width: 40vw;
+        margin-top: 5px;
+    }
+    .presentation-image{
+        width: 50vw;
+        height: 100%;
+    }
+    .footer-presentation{
+        padding: 60px 20% !important;
+    }
+    .footer-presentation h2{
+        font-size: 1.3rem;
+    }
 
-}
-
-@media (max-width: 1920px){
-
-}
-
-@media (max-width: 2048px){
-
-}
-
-@media (max-width: 3840px){
-
-}
-
-@media (min-width: 1200px) {
+    .right-avatar-img, .left-avatar-img{
+        width: 35vw;
+        padding: 10px;
+        max-width: 350px !important;
+    }
+    .left-avatar-img{
+        margin-right: 40px;
+    }
+    .pratice-container, .mentoria-container, .support-container{
+        padding: 30px 20%;
+        margin-left: 0;
+    }
+    .support{
+        margin-top: 0;
+    }
+    .support-container span{
+        font-size: 0.8rem;
+    }
+    .attendance {
+        padding: 40px 20% !important;
+    }
+    .attendance-container h1{
+        font-size: 1.6rem;
+    }
+    .attendance-items {
+        padding: 20px;
+        justify-items: center;
+    }
+    .items-risks{
+        padding: 15px 0;
+        width: 100vw;
+    }
+    .course{
+        margin-top: 0;
+        padding: 40px 20% !important;
+    }
+    .courses-container h1{
+        font-size: 1.6rem;
+    }
     .items-box{
-        max-width: 305px;
+        width: 355px;
+    }
+    footer  p{
+        font-size: 0.7rem !important;
     }
 }
