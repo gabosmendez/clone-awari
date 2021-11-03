@@ -302,7 +302,7 @@
     }
 }
 
-@media (min-width: 829px) and (max-width: 1080px){
+@media (min-width: 829px) and (max-width: 1380px){
     p {
         font-size: 1rem !important;
         width: 100%;
@@ -327,6 +327,9 @@
         background-color: white;
         z-index: 10;
     }
+    .button-collapse{
+        display: none !important;
+    }
     section, footer{
         padding: 20px !important;
     }
@@ -343,7 +346,7 @@
     }
     .presentation-left{
         width: 40vw;
-        margin-top: 5px;
+        margin-top: 10vh;
     }
     .presentation-image{
         width: 60vw;
@@ -400,7 +403,7 @@
     }
 }
 
-@media (min-width: 1081px) and (max-width: 1920px){
+@media (min-width: 1381px) and (max-width: 1920px){
     p {
         font-size: 1rem !important;
         width: 100%;
@@ -425,7 +428,10 @@
         background-color: white;
         z-index: 10;
     }
-    section, footer{
+    .button-collapse{
+        display: none !important;
+    }
+    footer{
         padding: 20px !important;
     }
     .main-left{
@@ -442,12 +448,12 @@
         margin-top: 8vh;
     }
     .presentation-left{
-        width: 40vw;
-        margin-top: 5px;
+        width: 30vw;
+        margin-top: 8vh;
     }
     .presentation-image{
-        width: 50vw;
-        height: 100%;
+        width: 46vw;
+        height: 75vh;
     }
     .footer-presentation{
         padding: 60px 20% !important;
@@ -464,8 +470,11 @@
     .left-avatar-img{
         margin-right: 40px;
     }
-    .pratice-container, .mentoria-container, .support-container{
-        padding: 30px 20%;
+    .pratice {
+        margin-top: 13vh;
+    }
+    .pratice, .mentoria, .support, .experience, footer, .footer-container{
+        padding: 20px 20vw !important;
         margin-left: 0;
     }
     .support{
@@ -499,6 +508,6 @@
         width: 355px;
     }
     footer  p{
-        font-size: 0.7rem !important;
+        font-size: 1rem !important;
     }
 }
