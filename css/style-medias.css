@@ -308,7 +308,7 @@
         width: 100%;
     }
     #banner-titulo{
-        font-size: 36px;
+        font-size: 42px;
         line-height: 100%;
         margin-top: 20px;
     }
@@ -409,7 +409,7 @@
         width: 100%;
     }
     #banner-titulo{
-        font-size: 36px;
+        font-size: 48px;
         line-height: 100%;
         margin-top: 20px;
     }
@@ -417,7 +417,7 @@
         font-size: 1.6rem;
     }
     li {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     #check {
         width: 0.7rem !important;
@@ -448,11 +448,11 @@
         margin-top: 8vh;
     }
     .presentation-left{
-        width: 30vw;
+        width: 27vw;
         margin-top: 8vh;
     }
     .presentation-image{
-        width: 46vw;
+        width: 49vw;
         height: 75vh;
     }
     .footer-presentation{
